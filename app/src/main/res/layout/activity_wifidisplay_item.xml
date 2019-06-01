@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:layout_gravity="center"
+    >
+
+    <RelativeLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/ll_wfd_row"
+        >
+
+        <TextView
+            android:id="@+id/tv_wfd_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Wi-Fi"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/enable_text"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tv_wfd_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="21dp"
+            android:singleLine="true"
+            android:maxEms="6"
+            android:ellipsize="end"
+            android:textColor="@color/disable_text"
+            android:text="ATT-712"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
